@@ -29,7 +29,7 @@ def main(exe_path):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-    print("Usage: python script.py <executable_file>")
+        print("Usage: python script.py <executable_file>")
     sys.exit(1)
     exe_path = sys.argv[1]
 
